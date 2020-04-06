@@ -57,3 +57,9 @@ pip3 install --upgrade pip
 * TrainModel.py file is used for creating and training a model.
 * Classification.py file is for predicting the genres of test music files.
 * Main.py file runs CreateDataset.py and TrainModel.py and Classification.py sequentially.
+
+### An edit to the original file
+ 1. Upload audio clips from the GITZAN data set in the /Resource/Trainfiles folder with all genres in their respective place
+ 2. Drop the files you want to test in the /Resource/Testfiles
+ 3. Run the Main.py python script to know the genre of the uploaded song.
+ 4. Make necessary changes in the position of these files and Python scripts to suit your Operating System
