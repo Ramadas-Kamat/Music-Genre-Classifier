@@ -63,3 +63,9 @@ pip3 install --upgrade pip
  2. Drop the files you want to test in the /Resource/Testfiles
  3. Run the Main.py python script to know the genre of the uploaded song.
  4. Make necessary changes in the position of these files and Python scripts to suit your Operating System
+
+### GUI
+ 1. The above python files can easily be run using the GUI based model.
+ 2. The application takes a file present on the device as an input and predicts the genre using the given model.
+ 3. The app implicitly moves the input file from a position say location in the Source folder to the /Resource/Testfiles folder.
+ 4. A shell script can be found attached to simplify the process.
